@@ -1,6 +1,6 @@
-# Iodine Software Architecture Documentation
+# HIPAA ISV Software Architecture Documentation
 
-This repository contains comprehensive architecture documentation for various components of Iodine Software's AWS infrastructure.
+This repository contains comprehensive architecture documentation for various components of HIPAA ISV Software's AWS infrastructure.
 
 ## Components
 
@@ -12,12 +12,12 @@ This repository contains comprehensive architecture documentation for various co
 - EC2 warm standby
 - AWS Backup integration
 
-### [RDS IAM Authentication](./Iodine%20RDS%20IAM%20Auth/)
+### [RDS IAM Authentication](./RDS%20IAM%20Auth/)
 - IAM-based authentication for RDS Aurora
 - Secure access management
 - Integration with AWS Identity Center
 
-### [RDS Kerberos Authentication](./Iodine%20RDS%20Kerberos%20Auth/)
+### [RDS Kerberos Authentication](./RDS%20Kerberos%20Auth/)
 - Kerberos-based authentication flow
 - Integration with Amazon Managed Active Directory
 - Single sign-on experience for data team
